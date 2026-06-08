@@ -1,0 +1,48 @@
+/* App-specific styles. Tailwind utilities are loaded from src/index.css. */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.counter {
+  margin-top: 1.25rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  border: 1px solid var(--border);
+  background: rgba(170, 59, 255, 0.12);
+  color: var(--text-h);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#next-steps {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2rem 1rem 4rem;
+}
+
+#docs,
+#social {
+  border: 1px solid var(--border);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.logo,
+.button-icon {
+  width: 24px;
+  height: 24px;
+}
